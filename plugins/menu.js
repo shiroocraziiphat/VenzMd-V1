@@ -28,7 +28,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭────ꕥ %me ꕥ────
+╭────ꕥ ShiroBotz-Md ꕥ────
 │• Version: %version
 │• Library: Baileys-MD
 │• Mode: ${global.opts['self'] ? 'Self' : 'publik'}
@@ -155,12 +155,12 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
          hydratedTemplate: {
            hydratedContentText: text.trim(),
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./media/shiraori.jpg') },
+           jpegThumbnail: fs.readFileSync('./media/elaina.jpg') },
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
                displayText: '💠 Source Code',
-               url: 'https://github.com/adiwajshing/Baileys'
+               url: 'https://github.com/shiroocraziiphat/VenzMd-V1'
              }
 
            },
